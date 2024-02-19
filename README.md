@@ -16,7 +16,9 @@ MyBatis는 SQL 쿼리와 객체 간의 매핑을 중심으로 하는 데이터 �
 
 
 ##  필요한 코드 
-- 디비 기본 설정(DB설정)
+- 1. mybatis-config파일 만들기 
+- 2. DataSource설정 먼저하기!(기본)
+- 3. SqlSessionFactoryBean만들기 (아래코드 참조)
 
 ```
   <!-- SqlSessionFactoryBean 설정: MyBatis와 Spring 연동 모듈의 핵심으로, SqlSessionFactory를 생성합니다. -->
